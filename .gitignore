@@ -1,0 +1,79 @@
+# ==============================================================================
+# DATOS Y DATASETS (Nunca subir al repositorio por tamaño y licencias)
+# ==============================================================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Exclusión general de formatos de datasets crudos y procesados
+*.csv
+*.tsv
+*.npz
+*.npy
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.zip
+*.tar.gz
+*.gz
+
+# ==============================================================================
+# PYTHON & ENTORNO VIRTUAL
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# JUPYTER NOTEBOOKS
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ==============================================================================
+# LOGS & TEMPORALES
+# ==============================================================================
+*.log
+results/logs/*
+!results/logs/.gitkeep
+
+# ==============================================================================
+# SISTEMA OPERATIVO & IDES
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

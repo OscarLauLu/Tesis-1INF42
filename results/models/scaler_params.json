@@ -1,0 +1,14 @@
+{
+    "current_speed": {
+        "min": 0.0,
+        "max": 44.0
+    },
+    "freeflow_speed": {
+        "min": 5.0,
+        "max": 46.0
+    },
+    "congestion_index": {
+        "min": 0.0,
+        "max": 1.0
+    }
+}
